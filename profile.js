@@ -24,7 +24,7 @@ let get = (username) => {
         // TODO: [x] Parse the data
         // Convert String to JSON (JavaScript object)
         // TODO: [x] Print the data out
-        console.log(`${profile.login} owns ${profile.public_repos} repo(s) and has ${profile.followers} followers(s).`)
+        console.log(`${profile.login} owns ${profile.public_repos} repos and has ${profile.followers} followers.`)
       } else {
         console.log(`Profile with username '${username}' not found.`)
       }
